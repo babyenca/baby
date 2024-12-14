@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baby</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e1e2f, #6eb5ff);
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(30, 30, 47, 0.7);
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #6eb5ff;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px auto;
+            line-height: 1.6;
+            text-align: justify;
+            width: 90%;
+            max-width: 800px;
+        }
+        button {
+            background: linear-gradient(135deg, #6eb5ff, #1e1e2f);
+            color: #ffffff;
+            border: none;
+            padding: 15px 30px;
+            margin: 20px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Birthday Message</h1>
+    </header>
+    <audio id="background-music" autoplay loop>
+        <source src="baby.mp3" type="audio/mpeg">
+    </audio>
+    <p>To Mylove,</p>
+    <p>Every day with you feels like a blessing I could never have dreamed of. You’re the kindest soul I’ve ever known, always willing to lend a helping hand without hesitation. No matter how big or small my requests are, you respond with such patience and care, reminding me how lucky I am to have someone as selfless and understanding as you. Your heart shines brighter than the sun, and it’s the warmth that keeps me smiling even on my hardest days.</p>
+    <p>I’m endlessly in awe of how gentle you are with me. You’ve never raised your voice, never let anger come between us, and you treat me with such grace and tenderness that I truly feel like the luckiest princess in the world. Your respect for others and the way you carry yourself humbly yet confidently make you stand out in the most beautiful way. You remind me every day that love isn’t just about words, it’s about the way you make someone feel treasured and safe.</p>
+    <p>Your hard work and determination are incredibly inspiring. Everything you do, you pour your heart and soul into, and seeing that drive in you is one of the things I admire most. Whether it’s academics, personal goals, or simply helping those around you, you give your 100% and leave me in awe. Honestly, it’s so attractive to see someone as passionate as you about doing their best. You push me to be better, not by saying anything but by simply being the incredible person you are.</p>
+    <p>And then there’s your brilliance, your mind amazes me every single day. You’re so smart, always excelling in everything you put your mind to, and somehow, you make it all look so effortless. Whether you’re answering my endless questions or sharing your thoughts, you never fail to leave me impressed. Your wisdom and insight make me feel like I could talk to you for hours and never get tired of listening to you.</p>
+    <p>On top of all that, you’re the most handsome, cutest, and perfect person I’ve ever laid my eyes on. From the way your eyes light up when you smile to the smallest quirks that make you you, everything about you is a masterpiece. You are my everything, my love, my partner, my safe space, and I’m so grateful for you every day. I hope you always know just how deeply and truly I love you.</p>
+    <p>Your baby,  
+    Meesya</p>
+    <button onclick="location.href='index.html'">Back to Home</button>
+    <button onclick="location.href='game.html'">Play Game</button>
+    <script>
+        const backgroundMusic = document.getElementById('background-music');
+        backgroundMusic.volume = 0.3; // Adjust volume level (0.0 to 1.0)
+    </script>
+</body>
+</html>
